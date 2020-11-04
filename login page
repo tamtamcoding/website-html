@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to see our</title>
+    <!--tailwind css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind-experimental.min.css">
+
+</head>
+<body class="bg-green-500">
+    <!--login structure-->
+    <div class="container mx-auto p-2">
+        <div class="max-w-sm mx-auto my-24 bg-white px-5 py-10 rounded shadow-x1">
+            <div class="text-center mb-8">
+                <h1 class="font-bold text-2x1">Login to see our products!</h1>
+            
+            <form action="#">
+                <div class="mt-5">
+                    <label>User ID</label>
+                    <input type="text" class="block w-full p-2 border rounded-gray-500">
+                </div>
+                <div class="mt-5">
+                    <label>Password</label>
+                    <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="************">
+                    <p class="text-red text-xs italic">Enter password</p>
+                </div>
+                <div class="mt-10">
+                    <input type="submit" value="Login" class="py-3 bg-blue-500 text-white w-full rounded hover:bg-blue-600">
+                        <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">Forgot Password?</a>
+                        <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="signup.html">Register Account</a>
+                </div>
+                <div class="mt-6 flex items-center justify-between">
+                    <div class="flex items-center">
+                      <input id="remember_me" type="checkbox" class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
+                      <label for="remember_me" class="ml-2 block text-sm leading-5 text-gray-900">
+                        Remember me
+                      </label>
+                    </div>
+            </form>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
